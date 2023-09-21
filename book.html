@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cryption</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   
+
+    
+    <label for="text">Input text</label>
+    <textarea  class="text"></textarea>
+    <label for="key">Input virsh(key for encryption) </label>
+    <textarea  class="text" id="gama"></textarea>
+    <label for="result">result:</label>
+    <div  class="result"></div>
+    <button class="buttonCrip" onclick="Button(true)">Cryption</button>
+    
+    <button  class="buttonCrip"  onclick="Button(false)">Decryption</button>
+    <input class="buttonCrip custom-file-input" type="file" onchange="openFile(this)" ></button>
+    <button class="buttonCrip" onclick="onDownloadBtnClick()">Save as file </button>
+    <div id="alertV"><span id="textAlert">Missing char: </span><span id="btnAler" onclick="DisAlert()">Close</span></div>
+    <script src="book.js"></script>
+    <script src = "render.js"></script>
+</body>
+
+   
+
+
+</html>

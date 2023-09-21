@@ -1,0 +1,104 @@
+.icon{
+  position:absolute;
+  top:40px;
+  left: 40px;
+  border-radius: 100%;
+  border:solid black 2px;
+  width:60px;
+  height:60px;
+}
+#btnAler{
+  padding: 5px 10px;
+  background-color: #9e9e9e;
+  font-weight: bold;
+}
+#GenKey{
+  padding: 5px 5px;
+  background-color: #9e9e9e;
+  font-weight: bold;
+  position: absolute;
+  top:50%;
+  left:40px;
+}
+#alertV{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 15px;
+  display: none;
+  border-radius: 17px;
+  border: 2px solid darkgrey;
+  box-shadow: 2px 2px 2px black;
+  right: calc(50% - 150px);
+  background-color: antiquewhite;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.text{
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    /* background-color: #F0ECEC; */
+    border: 2px solid #9e9e9e;
+    box-shadow: 2px 2px 3px black;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Open file';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    /* border: 1px solid #999; */
+    border-radius: 3px;
+    padding: 6px 25px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+.result{
+    width:400px;
+    color:black;
+    font-weight: bold;
+}
+.btnFile{
+    position:absolute;
+}
+.buttonCrip{
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    background-color: #bdbdbd;
+    border-radius: 10%;
+    border: 0px;
+    box-shadow: 2px 3px 2px darkslategrey;
+    margin: 5px;
+}
+html,body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #795548;
+    font-size: 20px;
+    font-family: monospace;
+    flex-direction: column;
+    background-color: #f0ecec;
+}
+body{
+    background-color: #d2691e00;
+}
